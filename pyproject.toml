@@ -1,0 +1,19 @@
+[project]
+name = "bgee-rdf"
+version = "0.1.0"
+description = "Bgee gene expression RDF dump as a BioBrick"
+requires-python = ">=3.10"
+dependencies = [
+    "requests>=2.31.0",
+    "tqdm>=4.66.0",
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.uv]
+dev-dependencies = [
+    "pytest>=8.0.0",
+    "ruff>=0.3.0",
+]
