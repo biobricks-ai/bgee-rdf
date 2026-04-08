@@ -1,6 +1,6 @@
 stages:
   download:
-    cmd: uv run python stages/01_download.py
+    cmd: uv run --no-project python stages/01_download.py
     deps:
       - stages/01_download.py
     outs:
